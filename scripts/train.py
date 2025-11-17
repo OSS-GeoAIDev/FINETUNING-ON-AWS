@@ -15,11 +15,11 @@ def parse_args():
 
 def format_example(example):
     prompt = f"""### Instruction:
-{example['instruction']}
-### Input:
-{example['input']}
-### Response:
-{example['output']}"""
+    {example['instruction']}
+    ### Input:
+    {example['input']}
+    ### Response:
+    {example['output']}"""
     return {"text": prompt}
 
 
